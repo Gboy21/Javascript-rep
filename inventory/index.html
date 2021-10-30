@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>
+                    Dynamically Add & Remove Items From List Using Javascript
+                </h1>
+                <hr>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="candidate">
+
+                    <div class="iput-group-append">
+                        <button onclick="addItem()" class="btn btn-add" type="button">Add Item</button>
+                        <button onclick="removeItem()" class="btn btn-remove" type="button">Remove Item</button>
+                    </div>
+                </div>
+                <ul id ="dynamic-list">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
